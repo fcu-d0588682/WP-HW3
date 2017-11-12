@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>A First Program in JavaScript</title>
+		<script type = "text/javascript">
+				var celsius;
+				var fahrenheit;
+				celsius = window.prompt("Please enter a celsius temperature.");
+				document.writeln("Celsius is" + celsius+"<br>" );
+				document.writeln("Convert Celsius to Fahrenheit :" + convert(celsius));
+				
+				function convert(celsius)
+				{
+				var celsius;
+				var f = celsius*(9/5)+32;
+				return f;
+				}
+				
+		</script>	
+		<style>
+		body{
+		background-color : lightblue;
+		}
+		</style>
+	</head>
+	<body>
+	</body>
+</html>
